@@ -589,7 +589,7 @@ p {
 }
 @media (min-width: 768px) {
   .destacada {
-    background-image: linear-gradient(to bottom, transparent 0%, transparent 50%, #3b4862 50%, #3b4862 100%), url(../img/destacada.jpg);
+    background-image: linear-gradient(to right, transparent 0%, transparent 50%, #3b4862 50%, #3b4862 100%), url(../img/destacada.jpg);
     background-position: center, -50rem center;
   }
 }
