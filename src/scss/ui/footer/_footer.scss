@@ -38,7 +38,11 @@
   }
 
   &__box-logo {
-    margin-left: 2rem;
+    @include m.tablet {
+      margin-left: 2rem;
+    }
+
+    margin-left: 0;
   }
 
   &__copyright {

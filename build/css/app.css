@@ -806,7 +806,12 @@ p {
   margin-bottom: 0;
 }
 .footer__box-logo {
-  margin-left: 2rem;
+  margin-left: 0;
+}
+@media (min-width: 768px) {
+  .footer__box-logo {
+    margin-left: 2rem;
+  }
 }
 .footer__copyright {
   background-color: #283142;
